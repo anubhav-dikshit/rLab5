@@ -20,6 +20,7 @@ ui <- shiny::fluidPage(
 #' @param input for the server
 #' @param output for server
 #' @importFrom shiny fluidPage sidebarLayout sidebarPanel textInput selectInput mainPanel textOutput verbatimTextOutput renderText shinyApp
+#' @importFrom rLab5 get_data
 #'
 #'
   server <- function(input, output) {

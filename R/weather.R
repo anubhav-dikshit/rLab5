@@ -15,7 +15,7 @@ ui <- shiny::fluidPage(
   )
 
   server <- function(input, output) {
-    output$table_output = shiny::renderTable(get_data(input$city, 1))}
+    output$table_output = shiny::renderTable(rLab5::get_data(input$city, 1))}
 
   # Create a Shiny app object
   shiny::shinyApp(ui = ui, server = server)

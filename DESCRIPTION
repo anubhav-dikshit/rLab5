@@ -1,5 +1,5 @@
 Package: rLab5
-Version: 0.0.0.9000
+Version: 0.0.1.000
 Title: Our Weather Forecast
 Description: Package to provide Weather details for current day with some forecasts.
 Authors@R: c(person("Anubhav", "Dikshit", email = "anudi287@student.liu.se", role = "cre"), person("Lennart", "Schilling", email = "lensc874@student.liu.se", role = "aut"), person("Thjis", "Quast", email = "thijsquast@gmail.com", role = "aut"))
