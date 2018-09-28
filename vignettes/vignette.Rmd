@@ -15,12 +15,18 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
+## API
+
+This package extracts data from the API of https://www.apixu.com. When using this package one can either create an account and request a personal key, or use the default key provided. With a shiny application the extracted data is then presented to the user in an interactive way, in which the user can specify the city of interest and number of days to be forecasted.
 
 
-## Usage of the package
+## The package
+This R package consits of three R scripts: (1) get_data.R, which extracts the data from the apixu and stores it as a data.frame, (2) ui.R, which specifies the user interface of the shiny app, (3) server.R, which computes output values and connects to the server.
 
-The package includes one function called get_data(city, days) which returns a Data Frame with weather information.
+## Data
+The package includes one function called get_data(city, days) which returns a list with information about the specified location, current weather and the number of days to be forecasted as specified in the function. An example of the output of this function is shown below for the city Bangalore in India.
 
+## Example
 ```{r}
 library(rLab5)
 get_data("Bangalore", 1)
