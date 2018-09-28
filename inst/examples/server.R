@@ -9,6 +9,3 @@
 #'
   server <- function(input, output) {
     output$table_output = shiny::renderTable(rLab5::get_data(input$city, 1))}
-
-  # Create a Shiny app object
-  shiny::shinyApp(ui = ui, server = server)
