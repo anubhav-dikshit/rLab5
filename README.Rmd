@@ -45,3 +45,7 @@ library(rLab5)
 get_data("Bangalore", 1)
 ```
 
+```{r shiny example, eval=FALSE}
+## Shiny App
+shiny::runGitHub(repo = "anubhav-dikshit/rLab5", subdir = "inst/examples")
+```

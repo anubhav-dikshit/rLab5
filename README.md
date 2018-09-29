@@ -35,5 +35,10 @@ This is a basic example which shows you how to solve a common problem:
 library(rLab5)
 get_data("Bangalore", 1)
 #>        Name Current_temp_C Current_humidity Current_wind_kph
-#> 1 Bangalore             20              100                0
+#> 1 Bangalore             28               58               13
+```
+
+``` r
+## Shiny App
+shiny::runGitHub(repo = "anubhav-dikshit/rLab5", subdir = "inst/examples")
 ```
